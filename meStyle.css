@@ -1,0 +1,85 @@
+
+body {
+	position: relative;
+	background-image: url("images/background6.jpg");
+	background-size: cover;
+	color:white;
+	text-align: center;
+	font-family: Georgia;
+}
+
+
+
+body {
+	background-image: url("images/background6.jpg");
+	background-size: cover;
+	color:white;
+	text-align: center;
+	font-family: Georgia;
+}
+#myPictures {
+	text-align: center
+}
+
+#pageHeader {
+	color: #ffffff;
+	font-family: 'Arizonia', cursive;
+	font-size: 6rem;
+}
+
+.picDiv {
+	display: inline-block;
+	min-height: 15rem;
+	width: 32%;
+	margin: 3rem auto;
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+}
+
+#pic1Div {
+	background-image: url("images/pic7.jpg");
+}
+
+#pic2Div {
+	background-image: url("images/pic8.jpg");
+}
+
+#pic3Div {
+	background-image: url("images/pic3.jpg");
+}
+#pic4Div {
+	background-image: url("images/pic4.jpg");   		
+}
+#pic5Div {
+	background-image: url("images/pic5.jpg");
+}
+#pic6Div {
+	background-image: url("images/pic6.jpg");
+}
+.paraList {
+	list-style: none;
+}
+#aboutMeHeader {
+	text-decoration: underline;
+}
+#goalsPara {
+	text-decoration: underline;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 767px) { /*iPhone 5 & Galaxy S5 Responsive Design*/
+	.picDiv {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) { /*iPad & iPad Pro Responsive Design*/
+	.picDiv {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+	
+
+
